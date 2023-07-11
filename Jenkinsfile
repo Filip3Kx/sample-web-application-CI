@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Fetch Code') {
       steps { 
-        git branch: 'main', url: 'https://github.com/Filip3Kx/sample-web-application-CI'
+        git branch: 'jenkins', url: 'https://github.com/Filip3Kx/sample-web-application-CI'
       }
     }
     stage('Build') {
